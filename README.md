@@ -1,9 +1,23 @@
-# Scale
-A load balancer
+# Scale v0.0.8 (Currently Dev Only no Production Use!) 
+A Full Futured NODE.JS Application Running and Scaling Framework
 
-## Features
+## Futures over Scale
+* Nice Framework Structue
+* Ability to Check if a Port is Blocked
+* Search for Free Port to Start Instance
+* Search for Free Socks to Start Instance
+* Register Servers and Only Balance to Registered Running Instances.
+* Start Instances Prefork or OnDemand
 * Supports http and https protocols
 * Port forwarding
+
+## ToDo
+* Add Futures :D
+* Choose Config file or Command Line Parameters
+* Choose Logging Method: Current only file (Large IO), 
+* Adding MongoDB For Server Registering and Log (Trim Log??)
+* Adding Auto Scale Algos (Framework for Cloud and Server Farm as Single Server)
+
 
 ## Installation
 ```sh
@@ -33,6 +47,7 @@ $ scale start
 info: starting scale on port 4141
 
 $ scale config      # show config
+
 
 $ scale -e config   # edit config
 ```
@@ -83,5 +98,3 @@ forward:
       port: 22
 ```
 
-## Caveats
-* Scale is in very very early stage, please use it just for testing and development, seriously!
