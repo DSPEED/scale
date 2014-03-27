@@ -46,7 +46,7 @@ $ scale -h
 $ scale start
 info: starting scale on port 4141
 
-$ scale config      # show config
+$ scale config      # show configh
 
 
 $ scale -e config   # edit config
@@ -61,11 +61,18 @@ root: $HOME/.scale
 port: 1431
 
 # List of servers to balance load
-servers:
-  - name:
-    protocol:   # http/https
-    hostname:
-    port:
+DEPRICATED!!!!! 
+XXXXXX servers:
+XXXXXX  - name:
+XXXXXX    protocol:   # http/https
+XXXXXX    hostname:
+XXXXXX    port:
+DEPRICATED!!!!!
+use // Listen to a specified port, or default to 8000
+
+server.listen(require('seaport').connect('localhost', 9090).register('server'));
+
+and start seaport server befor on 9090 ;)
 
 # Routing technique
 technique:    # random/roundrobin

@@ -10,14 +10,16 @@
     "winston": "0.6.x",
     "js-yaml": "2.x",
     "editor": "0.x",
-    "async": "0.2.x"
+    "async": "0.2.x",
+    "http-proxy": "*",
+    "seaport": "*"
   },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vishr/scale.git"
+    "url": "https://github.com/DSPEED/scale.git"
   },
   "keywords": [
     "http",
@@ -27,6 +29,6 @@
     "port",
     "forwarding"
   ],
-  "author": "Vishal Rana",
-  "license": "BSD"
+  "author": "Frank Lemanschik",
+  "license": "GPL"
 }
