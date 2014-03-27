@@ -1,0 +1,4 @@
+scale
+=====
+
+A load balancer
